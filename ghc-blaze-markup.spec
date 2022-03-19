@@ -7,7 +7,7 @@ Summary:	A blazingly fast markup combinator library for Haskell
 Summary(pl.UTF-8):	Biblioteka olśniewająco szybkiego kombinatora dodającego znaczniki
 Name:		ghc-%{pkgname}
 Version:	0.8.2.5
-Release:	2
+Release:	3
 License:	BSD
 Group:		Development/Languages
 #Source0Download: http://hackage.haskell.org/package/blaze-markup
