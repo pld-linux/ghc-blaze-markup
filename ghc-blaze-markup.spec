@@ -136,7 +136,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc CHANGELOG LICENSE
 %{_libdir}/%{ghcdir}/package.conf.d/%{pkgname}.conf
 %dir %{_libdir}/%{ghcdir}/%{pkgname}-%{version}
-%{_libdir}/%{ghcdir}/%{pkgname}-%{version}/libHSblaze-markup-%{version}-*.so
+%attr(755,root,root) %{_libdir}/%{ghcdir}/%{pkgname}-%{version}/libHSblaze-markup-%{version}-*.so
 %{_libdir}/%{ghcdir}/%{pkgname}-%{version}/libHSblaze-markup-%{version}-*.a
 %exclude %{_libdir}/%{ghcdir}/%{pkgname}-%{version}/libHSblaze-markup-%{version}-*_p.a
 %dir %{_libdir}/%{ghcdir}/%{pkgname}-%{version}/Text
